@@ -1,0 +1,35 @@
+﻿What happens when you initialize a repository? 
+	- It initialises the hidden background directory used for tracking and manipulating the change metadata
+
+Why do you need to do it?
+
+
+	- So that you can start the revision control process
+
+How is the staging area different from the working directory and the repository?
+
+	- It is an intermediate area that can be used to control what changes you want to add with a commit
+
+What value do you think it offers?
+	- It helps you to break changes down into logical ones
+
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+	- By only adding files to the staging area tht corresponds to the logical change you want to commit
+
+
+What are some situations when branches would be helpful in keeping your history
+organized?
+	- Different logical progeressions can be tested with different branches
+
+How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
