@@ -1,0 +1,20 @@
+diff
+	- git diff <commit> <commit>
+	- the first commit is the older file while the second commit is the newer file
+
+clone
+checkout
+log
+
+git init 
+	- initiate a new repository in a folder
+	- note that it does not automatically comit
+
+git status
+	- shows certain status info on repository
+
+git add
+	- adds files to the staging areas
+
+git reset
+	- It seems to reverse whatever you added to the staging area. Im not sure yet if it is a complete reset
