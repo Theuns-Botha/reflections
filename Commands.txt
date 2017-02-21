@@ -41,3 +41,6 @@ git merge id1 id2 *This merges the two branches into one. With the checked out b
 
 git reset HEAD~ *This removes the last commit
 
+git push
+
+git pull
