@@ -1,10 +1,18 @@
 diff
 	- git diff <commit> <commit>
 	- the first commit is the older file while the second commit is the newer file
+	- If no arguments are used, the staging area is compared to the work directory
+	- --staged shows the difference between the staging area and the repositry
 
 clone
-checkout
-log
+
+
+git checkout 	- checkout branches or commits. Note that if a commit is in detached head mode, the changes can be lost if the commit does not form part of a branch
+		-b New_branch_name *This creates a new branch and checks out that branch
+
+git log 
+	-n <n> *only shows n amount of commits
+	--graph --oneline master coin *This shows a simplified graphical tree of the commit timeline
 
 git init 
 	- initiate a new repository in a folder
@@ -18,3 +26,18 @@ git add
 
 git reset
 	- It seems to reverse whatever you added to the staging area. Im not sure yet if it is a complete reset
+	- It is possible to lose your changes with this command
+
+git branch
+	* No arguments shows info on the different braches
+	* An argument creates a branch of that name
+	(Checking out branches work the same as checking out commits)
+	-d id *deletes the branch specified by the id, Note that if the branch is deleted without merging. The changes are lost.
+
+git show comm_ID *This shows the changes in a commit when compared to its parent
+
+git merge id1 id2 *This merges the two branches into one. With the checked out branch absorbing the other one
+		--abort *aborts the merge
+
+git reset HEAD~ *This removes the last commit
+
