@@ -13,19 +13,28 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    	A fork is a clone on Github, while a clone is either cloned from GitHub to your local drive or local to local. Otherwise they are prectically the same.
+	A branch starts a new line of changes on a project locally.
+
+	A branch will be used working on a single project, when the changes are only aimed at the specific project and might probably be merged back into the project if successful
+	A clone is mostly used to clone a repository onto your local disk. You would probably want to use a project as base, but continue with it in your own direction. This will probably be because you are not collaborating on the original project. You changes could however be merged back onto the original project if it were necessary.
+	The fork you use with a similar idea in mind as the clone, except you want to clone on Github from the get-go rather than to push your cloned version up onto GitHub only after making changes.
+	It seems this would be especially useful when one wants to firstly recognise the contribution of the author, and secondly not work on the new project alone since the forked version will be a good starting block for collaboration on the new project.	
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Local copies of remote branches mean that you have the commit history of your collabrator available offline. You can thus merge your work/incorporate their own into yours without having to connect to the server
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    One would have to be in the same office so that you can discuss the details on a continous basis, work on the same file rather than several version or one would have to hold regular meetings on strategy, and break the tasks up in a modular fashion.
+    The difficult part in holding regular meetings is defining the interface and algorithms before getting started. One would have to think further ahead. While working on the same file might limit you to working one at a time.
+    This would make it difficult to review the other persons changes, or stop them from changing your own work. This will also mean that a single person might have done a better job alone.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    While using the new branch seems to present more admin, it probably best to work with a different branch for anything about which you are reasonably uncertain. Like experimental work or large changes.
+    This will protect your master branch and the main functionality of your software.
