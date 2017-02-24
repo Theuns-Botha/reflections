@@ -4,8 +4,7 @@ diff
 	- If no arguments are used, the staging area is compared to the work directory
 	- --staged shows the difference between the staging area and the repositry
 
-clone
-
+git clone <url> clone the repository to current directory
 
 git checkout 	- checkout branches or commits. Note that if a commit is in detached head mode, the changes can be lost if the commit does not form part of a branch
 		-b New_branch_name *This creates a new branch and checks out that branch
@@ -41,6 +40,10 @@ git merge id1 id2 *This merges the two branches into one. With the checked out b
 
 git reset HEAD~ *This removes the last commit
 
-git push <remote> <branch/commit>
+git remote <name> *creates a new remote
+git remote *shows current remotes
+git remote -v *more verbose details on remote
 
-git pull
+git push <remote> <branch/commit> *pushes the local branch to the github repository
+
+git pull <remote> <branch/commit> *pulls the branch from github repository to local disk
